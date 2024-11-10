@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trend Analysis for {{ brand_name }}</title>
+</head>
+<body>
+    <h2>Search Trend for {{ brand_name }}</h2>
+    <img src="{{ url_for('static', filename='trend.png') }}" alt="Trend Graph">
+    
+    
+    <br>
+    <a href="{{ url_for('home') }}">Go Back</a>
+</body>
+</html>

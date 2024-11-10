@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Brand Trend Analysis</title>
+</head>
+<body>
+    <h2>Google Trends Search</h2>
+    <form action="{{ url_for('search') }}" method="post">
+        <label for="brand_name">Enter a Brand Name:</label>
+        <input type="text" id="brand_name" name="brand_name" required>
+        <button type="submit">Analyze Trend</button>
+    </form>
+</body>
+</html>
